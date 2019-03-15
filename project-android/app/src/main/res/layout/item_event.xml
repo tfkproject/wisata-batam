@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:shrinkColumns="*"
+    android:stretchColumns="*">
+
+    <TableRow
+        android:id="@+id/tblContent"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/text_no"
+            android:text="[No]"
+            android:layout_weight="1"
+            android:padding="10dip"/>
+                                   
+        <TextView
+            android:id="@+id/text_tanggal"
+            android:text="[DD-MM-YYYY]"
+            android:layout_weight="1"
+            android:padding="10dip"/>
+                                   
+        <TextView
+            android:id="@+id/text_evnt"
+            android:text="[event]"
+            android:layout_weight="1"
+            android:padding="10dip"
+            />                               
+    </TableRow>
+
+</TableLayout>
